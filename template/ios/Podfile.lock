@@ -980,7 +980,7 @@ PODS:
     - React-Core
   - react-native-version-check (3.4.7):
     - React-Core
-  - react-native-webview (13.10.0):
+  - react-native-webview (13.10.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1155,7 +1155,7 @@ PODS:
     - React-Core
   - RNCAsyncStorage (1.23.1):
     - React-Core
-  - RNCClipboard (1.5.1):
+  - RNCClipboard (1.14.1):
     - React-Core
   - RNDeviceInfo (10.13.2):
     - React-Core
@@ -1510,7 +1510,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: dcab599c527c2d7de2d76507a523d20a0b83823d
   react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
   react-native-version-check: 6cd36aad4e30b8e3216747e3b4ddeb09e0647af8
-  react-native-webview: 39288780069589ffd4d6912e327a52b11ff31513
+  react-native-webview: c461fed0b58be5ee5180c3c3092a1d5dcb214a94
   React-nativeconfig: 2e44d0d2dd222b12a5183f4bcaa4a91881497acb
   React-NativeModulesApple: 8aa032fe6c92c1a3c63e4809d42816284a56a9b0
   React-perflogger: f9367428cf475f4606b5965c1d5a71781bb95299
@@ -1533,13 +1533,13 @@ SPEC CHECKSUMS:
   ReactCommon: 1da3fc14d904883c46327b3322325eebf60a720a
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 826b603ae9c0f88b5ac4e956801f755109fa4d5c
-  RNCClipboard: 41d8d918092ae8e676f18adada19104fa3e68495
+  RNCClipboard: 0a720adef5ec193aa0e3de24c3977222c7e52a37
   RNDeviceInfo: 42aadf1282ffa0a88dc38a504a7be145eb010dfa
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNFileViewer: ce7ca3ac370e18554d35d6355cffd7c30437c592
   RNGestureHandler: 96439cf6543defdde87459e48cd1a3f0e45a008e
   RNKeychain: f1b48665a4646f61191eb048c4c05c58d9a7596f
-  RNPermissions: 294531ede5a64d1528463e88fffef05675842042
+  RNPermissions: 804379cdb8fa76ad0ab6617240057fb66b0eb0dd
   RNReanimated: 6cfa556540186ce7ae7a0b048f369236b1d86ebb
   RNScreens: 134a7511b12b8eb440b87aac21e36a71295d6024
   RNSVG: 43b64ed39c14ce830d840903774154ca0c1f27ec
@@ -1550,6 +1550,6 @@ SPEC CHECKSUMS:
   VisionCamera: 6ec753da6360981b4d1796cd13130ff9f4350ec9
   Yoga: e5b887426cee15d2a326bdd34afc0282fc0486ad
 
-PODFILE CHECKSUM: e3c52b5df409a2875ccc0a0caef276680a44b08c
+PODFILE CHECKSUM: 325887229da8d81ceb7d73efd07e9a31259c34d5
 
 COCOAPODS: 1.15.2

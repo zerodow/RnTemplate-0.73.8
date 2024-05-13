@@ -6,10 +6,6 @@ buildscript {
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
         kotlinVersion = "1.8.0"
-
-        VisionCameraCodeScanner_compileSdkVersion = 33
-        VisionCameraCodeScanner_minSdkVersion = 21
-        VisionCameraCodeScanner_targetSdkVersion = 33
     }
     repositories {
         google()
