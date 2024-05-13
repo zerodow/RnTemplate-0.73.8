@@ -1,0 +1,13 @@
+diff --git a/node_modules/@twotalltotems/react-native-otp-input/dist/index.js b/node_modules/@twotalltotems/react-native-otp-input/dist/index.js
+index 71580b8..060f506 100644
+--- a/node_modules/@twotalltotems/react-native-otp-input/dist/index.js
++++ b/node_modules/@twotalltotems/react-native-otp-input/dist/index.js
+@@ -130,7 +130,7 @@ export default class OTPInputView extends Component {
+             const { selectedIndex, digits } = this.state;
+             const { clearInputs, placeholderCharacter, placeholderTextColor } = this.props;
+             const { color: defaultPlaceholderTextColor } = { ...defaultTextFieldStyle, ...codeInputFieldStyle };
+-            return (<View pointerEvents="none" key={index + "view"} testID="inputSlotView">
++            return (<View pointerEvents="none" key={index + "view"} testID="inputSlotView" style={{backgroundColor:"#D9D9D9",borderRadius:5}}>
+                 <TextInput testID="textInput" underlineColorAndroid='rgba(0,0,0,0)' style={selectedIndex === index ? [defaultTextFieldStyle, codeInputFieldStyle, codeInputHighlightStyle] : [defaultTextFieldStyle, codeInputFieldStyle]} ref={ref => { this.fields[index] = ref; }} onChangeText={text => {
+                 this.handleChangeText(index, text);
+             }} onKeyPress={({ nativeEvent: { key } }) => { this.handleKeyPressTextInput(index, key); }} value={!clearInputs ? digits[index] : ""} keyboardAppearance={keyboardAppearance} keyboardType={keyboardType} textContentType={isAutoFillSupported ? "oneTimeCode" : "none"} key={index} selectionColor={selectionColor} secureTextEntry={secureTextEntry} editable={editable} placeholder={placeholderCharacter} placeholderTextColor={placeholderTextColor || defaultPlaceholderTextColor}/>
